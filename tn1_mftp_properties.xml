@@ -1,5 +1,5 @@
  <mftp>
-<transferName>TestName3</transferName>
+<transferName>TestName4</transferName>
 <source>
 	<name>TEST</name>
     <url>file:///Users/JonathanLewis/mftp/out/one</url>
