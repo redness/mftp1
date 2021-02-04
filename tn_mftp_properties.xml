@@ -1,5 +1,5 @@
 <mftp>
-<transferName>BPS_UAT_TO_BANKSERV_2</transferName>
+<transferName>BPS_UAT_TO_BANKSERV_4</transferName>
 <source>
 	<name>TEST</name>
     <url>file:///Users/JonathanLewis/mftp/out/6474</url>
