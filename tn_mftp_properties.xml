@@ -1,8 +1,8 @@
 <mftp>
-<transferName>BPS_UAT_TO_BANKSERV_10</transferName>
+<transferName>BPS_UAT_TO_BANKSERV_20</transferName>
 <source>
 	<name>TEST</name>
-    <url>file:///Users/JonathanLewis/mftp/out/6474</url>
+    <url>file:///Users/JonathanLewis/mftp/out/20</url>
     <regex>*.*</regex>
 </source>
 <destinations>
