@@ -1,26 +1,35 @@
 <mftp>
-<transferName>BPS_UAT_TO_BANKSERV_20</transferName>
-<source>
-	<name>TEST</name>
-    <url>file:///Users/JonathanLewis/mftp/out/20</url>
-    <regex>*.*</regex>
-</source>
-<destinations>
-        <destination>
+    <transferName>BPS_UAT_TO_BANKSERV_21</transferName>
+    <DEV>
+        <source>
             <name>TEST</name>
-            <url>file:///Users/JonathanLewis/mftp/out/one</url>
-        </destination>
-        <destination>
-            <name>TEST2</name>
-            <url>sftp://tes@192.168.0.1/</url>
-        </destination>
-        <destination>
-            <name>TEST3</name>
-            <url>smb://tes@192.168.0.1/</url>
-        </destination>
-        <destination>
-            <name>TEST4</name>
-            <url>ftp://tes@192.168.0.1/</url>
-        </destination>
-</destinations>
+            <url>file:///Users/JonathanLewis/mftp/out/21</url>
+            <regex>*.*</regex>
+        </source>
+    </DEV>
+    <QA>
+        <source>
+            <name>TEST</name>
+            <url>file:///Users/JonathanLewis/mftp/out/20</url>
+            <regex>*.*</regex>
+        </source>
+    </QA>
+    <destinations>
+            <destination>
+                <name>TEST</name>
+                <url>file:///Users/JonathanLewis/mftp/out/one</url>
+            </destination>
+            <destination>
+                <name>TEST2</name>
+                <url>sftp://tes@192.168.0.1/</url>
+            </destination>
+            <destination>
+                <name>TEST3</name>
+                <url>smb://tes@192.168.0.1/</url>
+            </destination>
+            <destination>
+                <name>TEST4</name>
+                <url>ftp://tes@192.168.0.1/</url>
+            </destination>
+    </destinations>
 </mftp>
