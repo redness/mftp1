@@ -3,13 +3,13 @@
     <environment>qa</environment>
     <source>
         <name>TEST</name>
-        <url>file:///Users/JonathanLewis/mftp/out/22DEV</url>
+        <url>file:///Users/KgomotsoR/mftp/out/22DEV</url>
         <regex>*.*</regex>
     </source>
     <destinations>
             <destination>
                 <name>TEST</name>
-                <url>file:///Users/JonathanLewis/mftp/out/one</url>
+                <url>file:///Users/KgomotsoR/mftp/out/one</url>
             </destination>
             <destination>
                 <name>TEST2</name>
