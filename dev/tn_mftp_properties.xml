@@ -1,19 +1,11 @@
 <mftp>
     <transferName>BPS_UAT_TO_BANKSERV_22</transferName>
-    <DEV>
-        <source>
-            <name>TEST</name>
-            <url>file:///Users/JonathanLewis/mftp/out/22DEV</url>
-            <regex>*.*</regex>
-        </source>
-    </DEV>
-    <QA>
-        <source>
-            <name>TEST</name>
-            <url>file:///Users/JonathanLewis/mftp/out/20QA</url>
-            <regex>*.*</regex>
-        </source>
-    </QA>
+    <environment>dev</environment>
+    <source>
+        <name>TEST</name>
+        <url>file:///Users/JonathanLewis/mftp/out/22DEV</url>
+        <regex>*.*</regex>
+    </source>
     <destinations>
             <destination>
                 <name>TEST</name>
@@ -32,4 +24,4 @@
                 <url>ftp://tes@192.168.0.1/</url>
             </destination>
     </destinations>
-</mftp>
+</mftp> 
